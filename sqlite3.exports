@@ -1,0 +1,278 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24215.1
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file sqlite3.dll
+
+File Type: DLL
+
+  Section contains the following exports for sqlite3.dll
+
+    00000000 characteristics
+    5ACCFCE3 time date stamp Tue Apr 10 14:05:23 2018
+        0.00 version
+           1 ordinal base
+         247 number of functions
+         247 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00001393 sqlite3_aggregate_context
+          2    1 0000102D sqlite3_aggregate_count
+          3    2 0000110E sqlite3_auto_extension
+          4    3 000010E6 sqlite3_backup_finish
+          5    4 000011AE sqlite3_backup_init
+          6    5 000011C2 sqlite3_backup_pagecount
+          7    6 00001352 sqlite3_backup_remaining
+          8    7 000010FF sqlite3_backup_step
+          9    8 00001410 sqlite3_bind_blob
+         10    9 0000133E sqlite3_bind_blob64
+         11    A 000012CB sqlite3_bind_double
+         12    B 00001311 sqlite3_bind_int
+         13    C 000013D9 sqlite3_bind_int64
+         14    D 00001389 sqlite3_bind_null
+         15    E 00001307 sqlite3_bind_parameter_count
+         16    F 0000126C sqlite3_bind_parameter_index
+         17   10 00001456 sqlite3_bind_parameter_name
+         18   11 00001302 sqlite3_bind_pointer
+         19   12 0000146F sqlite3_bind_text
+         20   13 0000136B sqlite3_bind_text16
+         21   14 00001384 sqlite3_bind_text64
+         22   15 00001249 sqlite3_bind_value
+         23   16 000012DF sqlite3_bind_zeroblob
+         24   17 000010CD sqlite3_bind_zeroblob64
+         25   18 000013CA sqlite3_blob_bytes
+         26   19 000013DE sqlite3_blob_close
+         27   1A 0000137F sqlite3_blob_open
+         28   1B 000012F3 sqlite3_blob_read
+         29   1C 0000113B sqlite3_blob_reopen
+         30   1D 000010A5 sqlite3_blob_write
+         31   1E 00001348 sqlite3_busy_handler
+         32   1F 00001343 sqlite3_busy_timeout
+         33   20 0000100A sqlite3_cancel_auto_extension
+         34   21 00001474 sqlite3_changes
+         35   22 000011B3 sqlite3_clear_bindings
+         36   23 0000129E sqlite3_close
+         37   24 00001096 sqlite3_close_v2
+         38   25 000013ED sqlite3_collation_needed
+         39   26 000013D4 sqlite3_collation_needed16
+         40   27 000011F9 sqlite3_column_blob
+         41   28 00001087 sqlite3_column_bytes
+         42   29 00001398 sqlite3_column_bytes16
+         43   2A 0000107D sqlite3_column_count
+         44   2B 0000119F sqlite3_column_database_name
+         45   2C 000010EB sqlite3_column_database_name16
+         46   2D 00001041 sqlite3_column_decltype
+         47   2E 00001415 sqlite3_column_decltype16
+         48   2F 00001145 sqlite3_column_double
+         49   30 00001401 sqlite3_column_int
+         50   31 000012F8 sqlite3_column_int64
+         51   32 000010D2 sqlite3_column_name
+         52   33 000012AD sqlite3_column_name16
+         53   34 00001159 sqlite3_column_origin_name
+         54   35 00001451 sqlite3_column_origin_name16
+         55   36 000010F0 sqlite3_column_table_name
+         56   37 00001429 sqlite3_column_table_name16
+         57   38 000010F5 sqlite3_column_text
+         58   39 000010D7 sqlite3_column_text16
+         59   3A 000011EF sqlite3_column_type
+         60   3B 0000104B sqlite3_column_value
+         61   3C 000013F2 sqlite3_commit_hook
+         62   3D 00001005 sqlite3_compileoption_get
+         63   3E 000011A9 sqlite3_compileoption_used
+         64   3F 0000103C sqlite3_complete
+         65   40 00001433 sqlite3_complete16
+         66   41 000011EA sqlite3_config
+         67   42 0000132F sqlite3_context_db_handle
+         68   43 000010C8 sqlite3_create_collation
+         69   44 000010B9 sqlite3_create_collation16
+         70   45 000010BE sqlite3_create_collation_v2
+         71   46 000013E3 sqlite3_create_function
+         72   47 000012E9 sqlite3_create_function16
+         73   48 00001339 sqlite3_create_function_v2
+         74   49 00001113 sqlite3_create_module
+         75   4A 000010C3 sqlite3_create_module_v2
+         76   4B 000013F7 sqlite3_data_count
+         77   4C 001968D0 sqlite3_data_directory
+         78   4D 0000106E sqlite3_db_cacheflush
+         79   4E 000014AB sqlite3_db_config
+         80   4F 000013B1 sqlite3_db_filename
+         81   50 0000146A sqlite3_db_handle
+         82   51 00001078 sqlite3_db_mutex
+         83   52 000013CF sqlite3_db_readonly
+         84   53 00001488 sqlite3_db_release_memory
+         85   54 00001253 sqlite3_db_status
+         86   55 000011C7 sqlite3_declare_vtab
+         87   56 000013B6 sqlite3_enable_load_extension
+         88   57 00001442 sqlite3_enable_shared_cache
+         89   58 000014A1 sqlite3_errcode
+         90   59 00001230 sqlite3_errmsg
+         91   5A 000013C5 sqlite3_errmsg16
+         92   5B 0000123A sqlite3_errstr
+         93   5C 000012C1 sqlite3_exec
+         94   5D 000012B2 sqlite3_expanded_sql
+         95   5E 0000108C sqlite3_expired
+         96   5F 00001366 sqlite3_extended_errcode
+         97   60 00001497 sqlite3_extended_result_codes
+         98   61 0000114F sqlite3_file_control
+         99   62 00001050 sqlite3_finalize
+        100   63 000012D0 sqlite3_free
+        101   64 000014B0 sqlite3_free_table
+        102   65 00192FE8 sqlite3_fts5_may_be_corrupt
+        103   66 00001181 sqlite3_get_autocommit
+        104   67 000013FC sqlite3_get_auxdata
+        105   68 0000128A sqlite3_get_table
+        106   69 00001492 sqlite3_global_recover
+        107   6A 00001285 sqlite3_initialize
+        108   6B 00001221 sqlite3_interrupt
+        109   6C 000011FE sqlite3_last_insert_rowid
+        110   6D 000011F4 sqlite3_libversion
+        111   6E 00001424 sqlite3_libversion_number
+        112   6F 00001299 sqlite3_limit
+        113   70 0000132A sqlite3_load_extension
+        114   71 0000119A sqlite3_log
+        115   72 000013BB sqlite3_malloc
+        116   73 0000131B sqlite3_malloc64
+        117   74 00001136 sqlite3_memory_alarm
+        118   75 00001163 sqlite3_memory_highwater
+        119   76 00001447 sqlite3_memory_used
+        120   77 00001069 sqlite3_mprintf
+        121   78 000012DA sqlite3_msize
+        122   79 0000142E sqlite3_mutex_alloc
+        123   7A 0000100F sqlite3_mutex_enter
+        124   7B 000012BC sqlite3_mutex_free
+        125   7C 00001280 sqlite3_mutex_leave
+        126   7D 00001479 sqlite3_mutex_try
+        127   7E 00001109 sqlite3_next_stmt
+        128   7F 000012D5 sqlite3_open
+        129   80 000011BD sqlite3_open16
+        130   81 000014B5 sqlite3_open_v2
+        131   82 0000121C sqlite3_os_end
+        132   83 00001465 sqlite3_os_init
+        133   84 0000137A sqlite3_overload_function
+        134   85 00001064 sqlite3_prepare
+        135   86 0000140B sqlite3_prepare16
+        136   87 0000101E sqlite3_prepare16_v2
+        137   88 00001023 sqlite3_prepare16_v3
+        138   89 000011D6 sqlite3_prepare_v2
+        139   8A 000011E5 sqlite3_prepare_v3
+        140   8B 00001028 sqlite3_profile
+        141   8C 0000125D sqlite3_progress_handler
+        142   8D 00001208 sqlite3_randomness
+        143   8E 0000144C sqlite3_realloc
+        144   8F 0000112C sqlite3_realloc64
+        145   90 00001235 sqlite3_release_memory
+        146   91 00001294 sqlite3_reset
+        147   92 0000117C sqlite3_reset_auto_extension
+        148   93 0000105A sqlite3_result_blob
+        149   94 0000138E sqlite3_result_blob64
+        150   95 0000143D sqlite3_result_double
+        151   96 000013E8 sqlite3_result_error
+        152   97 00001320 sqlite3_result_error16
+        153   98 00001217 sqlite3_result_error_code
+        154   99 00001460 sqlite3_result_error_nomem
+        155   9A 00001172 sqlite3_result_error_toobig
+        156   9B 0000120D sqlite3_result_int
+        157   9C 00001037 sqlite3_result_int64
+        158   9D 000010B4 sqlite3_result_null
+        159   9E 0000109B sqlite3_result_pointer
+        160   9F 000014BF sqlite3_result_subtype
+        161   A0 00001082 sqlite3_result_text
+        162   A1 00001375 sqlite3_result_text16
+        163   A2 000011B8 sqlite3_result_text16be
+        164   A3 000011CC sqlite3_result_text16le
+        165   A4 00001370 sqlite3_result_text64
+        166   A5 000010AF sqlite3_result_value
+        167   A6 00001258 sqlite3_result_zeroblob
+        168   A7 000011D1 sqlite3_result_zeroblob64
+        169   A8 0000135C sqlite3_rollback_hook
+        170   A9 0000122B sqlite3_rtree_geometry_callback
+        171   AA 00001267 sqlite3_rtree_query_callback
+        172   AB 0000130C sqlite3_set_authorizer
+        173   AC 00001271 sqlite3_set_auxdata
+        174   AD 00001140 sqlite3_set_last_insert_rowid
+        175   AE 00001334 sqlite3_shutdown
+        176   AF 0000128F sqlite3_sleep
+        177   B0 00001032 sqlite3_snprintf
+        178   B1 00001131 sqlite3_soft_heap_limit
+        179   B2 0000141A sqlite3_soft_heap_limit64
+        180   B3 000010A0 sqlite3_sourceid
+        181   B4 00001190 sqlite3_sql
+        182   B5 00001212 sqlite3_status
+        183   B6 00001091 sqlite3_status64
+        184   B7 000012EE sqlite3_step
+        185   B8 0000139D sqlite3_stmt_busy
+        186   B9 00001325 sqlite3_stmt_readonly
+        187   BA 000012E4 sqlite3_stmt_status
+        188   BB 000014A6 sqlite3_strglob
+        189   BC 0000105F sqlite3_stricmp
+        190   BD 000014BA sqlite3_strlike
+        191   BE 000010AA sqlite3_strnicmp
+        192   BF 00001073 sqlite3_system_errno
+        193   C0 00001127 sqlite3_table_column_metadata
+        194   C1 001968C8 sqlite3_temp_directory
+        195   C2 0000148D sqlite3_test_control
+        196   C3 0000123F sqlite3_thread_cleanup
+        197   C4 00001186 sqlite3_threadsafe
+        198   C5 00001406 sqlite3_total_changes
+        199   C6 00001014 sqlite3_trace
+        200   C7 0000114A sqlite3_trace_v2
+        201   C8 000011A4 sqlite3_transfer_bindings
+        202   C9 0000127B sqlite3_update_hook
+        203   CA 000012A8 sqlite3_uri_boolean
+        204   CB 00001262 sqlite3_uri_int64
+        205   CC 0000116D sqlite3_uri_parameter
+        206   CD 0000115E sqlite3_user_data
+        207   CE 000011DB sqlite3_value_blob
+        208   CF 00001046 sqlite3_value_bytes
+        209   D0 0000141F sqlite3_value_bytes16
+        210   D1 00001276 sqlite3_value_double
+        211   D2 00001168 sqlite3_value_dup
+        212   D3 000011E0 sqlite3_value_free
+        213   D4 0000118B sqlite3_value_int
+        214   D5 0000149C sqlite3_value_int64
+        215   D6 000010E1 sqlite3_value_nochange
+        216   D7 00001438 sqlite3_value_numeric_type
+        217   D8 000013A7 sqlite3_value_pointer
+        218   D9 000013AC sqlite3_value_subtype
+        219   DA 00001177 sqlite3_value_text
+        220   DB 00001483 sqlite3_value_text16
+        221   DC 00001122 sqlite3_value_text16be
+        222   DD 00001118 sqlite3_value_text16le
+        223   DE 00001154 sqlite3_value_type
+        224   DF 00160BD8 sqlite3_version
+        225   E0 000012FD sqlite3_vfs_find
+        226   E1 00001316 sqlite3_vfs_register
+        227   E2 000013C0 sqlite3_vfs_unregister
+        228   E3 000010DC sqlite3_vmprintf
+        229   E4 00001244 sqlite3_vsnprintf
+        230   E5 000012A3 sqlite3_vtab_collation
+        231   E6 0000147E sqlite3_vtab_config
+        232   E7 000010FA sqlite3_vtab_nochange
+        233   E8 00001357 sqlite3_vtab_on_conflict
+        234   E9 000012C6 sqlite3_wal_autocheckpoint
+        235   EA 00001226 sqlite3_wal_checkpoint
+        236   EB 000012B7 sqlite3_wal_checkpoint_v2
+        237   EC 00001195 sqlite3_wal_hook
+        238   ED 0000145B sqlite3_win32_is_nt
+        239   EE 00001104 sqlite3_win32_mbcs_to_utf8
+        240   EF 00001203 sqlite3_win32_mbcs_to_utf8_v2
+        241   F0 00001055 sqlite3_win32_set_directory
+        242   F1 000013A2 sqlite3_win32_sleep
+        243   F2 00001019 sqlite3_win32_unicode_to_utf8
+        244   F3 0000111D sqlite3_win32_utf8_to_mbcs
+        245   F4 0000134D sqlite3_win32_utf8_to_mbcs_v2
+        246   F5 0000124E sqlite3_win32_utf8_to_unicode
+        247   F6 00001361 sqlite3_win32_write_debug
+
+  Summary
+
+        6000 .data
+        2000 .idata
+       11000 .pdata
+       34000 .rdata
+        3000 .reloc
+        2000 .rsrc
+      15D000 .text
+        3000 data
+        1000 text

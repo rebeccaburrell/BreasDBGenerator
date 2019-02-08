@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BreasDBGenerator", "BreasDBGenerator\BreasDBGenerator.vcxproj", "{E84D7F46-EF3B-46DC-84BB-4BDF091E113A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sqlite3", "sqlite3\sqlite3.vcxproj", "{8D02FAFA-620E-4E45-86D9-6A4566221993}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sqlite3lib", "sqlite3lib\sqlite3lib.vcxproj", "{920ED315-3F11-4FBD-88F5-F7BAE94DA0F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E84D7F46-EF3B-46DC-84BB-4BDF091E113A}.Debug|x64.ActiveCfg = Debug|x64
+		{E84D7F46-EF3B-46DC-84BB-4BDF091E113A}.Debug|x64.Build.0 = Debug|x64
+		{E84D7F46-EF3B-46DC-84BB-4BDF091E113A}.Debug|x86.ActiveCfg = Debug|Win32
+		{E84D7F46-EF3B-46DC-84BB-4BDF091E113A}.Debug|x86.Build.0 = Debug|Win32
+		{E84D7F46-EF3B-46DC-84BB-4BDF091E113A}.Release|x64.ActiveCfg = Release|x64
+		{E84D7F46-EF3B-46DC-84BB-4BDF091E113A}.Release|x64.Build.0 = Release|x64
+		{E84D7F46-EF3B-46DC-84BB-4BDF091E113A}.Release|x86.ActiveCfg = Release|Win32
+		{E84D7F46-EF3B-46DC-84BB-4BDF091E113A}.Release|x86.Build.0 = Release|Win32
+		{8D02FAFA-620E-4E45-86D9-6A4566221993}.Debug|x64.ActiveCfg = Debug|x64
+		{8D02FAFA-620E-4E45-86D9-6A4566221993}.Debug|x64.Build.0 = Debug|x64
+		{8D02FAFA-620E-4E45-86D9-6A4566221993}.Debug|x86.ActiveCfg = Debug|Win32
+		{8D02FAFA-620E-4E45-86D9-6A4566221993}.Debug|x86.Build.0 = Debug|Win32
+		{8D02FAFA-620E-4E45-86D9-6A4566221993}.Release|x64.ActiveCfg = Release|x64
+		{8D02FAFA-620E-4E45-86D9-6A4566221993}.Release|x64.Build.0 = Release|x64
+		{8D02FAFA-620E-4E45-86D9-6A4566221993}.Release|x86.ActiveCfg = Release|Win32
+		{8D02FAFA-620E-4E45-86D9-6A4566221993}.Release|x86.Build.0 = Release|Win32
+		{920ED315-3F11-4FBD-88F5-F7BAE94DA0F5}.Debug|x64.ActiveCfg = Debug|x64
+		{920ED315-3F11-4FBD-88F5-F7BAE94DA0F5}.Debug|x64.Build.0 = Debug|x64
+		{920ED315-3F11-4FBD-88F5-F7BAE94DA0F5}.Debug|x86.ActiveCfg = Debug|Win32
+		{920ED315-3F11-4FBD-88F5-F7BAE94DA0F5}.Debug|x86.Build.0 = Debug|Win32
+		{920ED315-3F11-4FBD-88F5-F7BAE94DA0F5}.Release|x64.ActiveCfg = Release|x64
+		{920ED315-3F11-4FBD-88F5-F7BAE94DA0F5}.Release|x64.Build.0 = Release|x64
+		{920ED315-3F11-4FBD-88F5-F7BAE94DA0F5}.Release|x86.ActiveCfg = Release|Win32
+		{920ED315-3F11-4FBD-88F5-F7BAE94DA0F5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
